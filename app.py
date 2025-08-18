@@ -5,7 +5,7 @@ import time
 
 # ---------- Helper to fetch prices ----------
 def get_price(item):
-    url = f"https://api.api-ninjas.com/v1/commodityprice?name={item}"
+    url = f"https://api.api-ninjas.com/v1/commodityprice?name==platinum"
     headers = {"X-Api-Key": st.secrets["API_NINJA_KEY"]}
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
