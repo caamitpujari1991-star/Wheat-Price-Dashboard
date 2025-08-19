@@ -1,7 +1,0 @@
-streamlit==1.37.0
-pandas
-numpy
-feedparser
-requests
-python-dateutil
-plotly
